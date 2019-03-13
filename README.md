@@ -1,7 +1,7 @@
 # LatihanPHPModul7
 RONA KAMILIA 34 X RPL 4
  JAWABAN
-1. <?php
+1. 
 
 $host = "localhost";
 $db = "db_universitas";
@@ -14,7 +14,6 @@ if(!$connect)
 {
     echo"Koneksi ke database gagal : " . mysqli_connect_error();
 }
-?>
 
 
 2. Membuat langsung di PHPmyadmin
@@ -22,7 +21,7 @@ if(!$connect)
 
 
 
-3. <?php
+3. 
 
 include '../connect.php';
 
@@ -71,7 +70,7 @@ $num = mysqli_num_rows($result);
 </html>
 
 
-4. <?php
+4. 
 
 include '../connect.php';
 
@@ -96,7 +95,6 @@ echo "<a href = 'read.php'>Lihat Data</a>";
 
 
 5.
-<?php
 
 include '../connect.php';
 
